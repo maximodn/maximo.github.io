@@ -1,12 +1,12 @@
 
 const libros = [
-    { id: 1, nombre: "El heroe perdido", precio: 875, autor: "Rick Riodan", formato: "Fisico", imagen: "/img/libro.jpg" },
-    { id: 2, nombre: "El Arte de la Guerra", precio: 723, autor: "Sun Tzu", formato: "Fisico", imagen: "/img/libro.jpg" },
-    { id: 3, nombre: "Casa de Hojas", precio: 877, autor: "Mark Z. Danielewski", formato: "Fisico", imagen: "/img/libro.jpg" },
-    { id: 4, nombre: "Into the Pit", precio: 402, autor: "Scott Cawthon", formato: "Fisico", imagen: "/img/libro.jpg" },
-    { id: 5, nombre: "Voces Anonimas", precio: 490, autor: "Guillermo Lockhart", formato: "Fisico", imagen: "/img/libro.jpg" },
-    { id: 6, nombre: "Heartstopper", precio: 850, autor: "Alice Oseman", formato: "Fisico", imagen: "/img/libro.jpg" },
-    { id: 7, nombre: "The Lord of the Rings", precio: 670, autor: "J. R. R. Tolkien", formato: "Fisico", imagen: "/img/libro.jpg" }
+    { id: 1, nombre: "El heroe perdido", precio: 875, autor: "Rick Riodan", formato: "Fisico", imagen: "img/libro.jpg" },
+    { id: 2, nombre: "El Arte de la Guerra", precio: 723, autor: "Sun Tzu", formato: "Fisico", imagen: "img/libro.jpg" },
+    { id: 3, nombre: "Casa de Hojas", precio: 877, autor: "Mark Z. Danielewski", formato: "Fisico", imagen: "img/libro.jpg" },
+    { id: 4, nombre: "Into the Pit", precio: 402, autor: "Scott Cawthon", formato: "Fisico", imagen: "img/libro.jpg" },
+    { id: 5, nombre: "Voces Anonimas", precio: 490, autor: "Guillermo Lockhart", formato: "Fisico", imagen: "img/libro.jpg" },
+    { id: 6, nombre: "Heartstopper", precio: 850, autor: "Alice Oseman", formato: "Fisico", imagen: "img/libro.jpg" },
+    { id: 7, nombre: "The Lord of the Rings", precio: 670, autor: "J. R. R. Tolkien", formato: "Fisico", imagen: "img/libro.jpg" }
 ]; // array de los libros
 
 
