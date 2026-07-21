@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Carrito</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="logo">Mi Librería</div>
+        <nav>
+            <a href="/index.html">Catálogo</a>
+            <a href="/carrito.html" class="active">Carrito</a>
+            <div id="not"></div>
+        </nav>
+    </header>
+
+    <main class="carrito-main">
+        <h1 class="page-title">Tu Carrito de Compras</h1>
+        
+        <div id="cont" class="grid-container">
+            <!-- JS inyectará los productos del carrito aquí -->
+        </div>
+        
+        <div class="carrito-actions">
+            <div id="resumen"></div>
+            <button id="vaciar" class="btn-danger">VACIAR CARRITO</button>
+            <button id="comprar" class="btn-comprar">COMPRAR</button>
+        </div>
+    </main>
+
+    <script src="/js/storage.js"></script>
+    <script src="/js/carrito.js"></script>
+</body>
+</html>
